@@ -1,0 +1,233 @@
+/*strat my coustom style sheet */
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/*type witter*/
+figure {
+	position: relative;
+
+}
+figure figcaption{
+	
+	position: absolute;
+
+    bottom: 50%;
+    left: 40%;
+    transform: translate(0,-50%);
+
+}
+.landing .figure .figure-img {
+	margin-bottom:0;
+	line-height: 1;
+}
+figure figcaption h1{
+  display: inline-block;
+ color: black;
+}
+
+/*
+.img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header {
+	width: 100%;
+	height: 100vh;
+    
+}
+*/
+
+#height{
+    height: 100vh;
+    width: 
+}
+#position{
+    position: fixed;
+    top: 0;
+}
+/*stycky nav*/
+header{
+
+}
+.main-nav {
+position: relative; 
+  width: 100%;
+  background: #fff;
+  height: 80px;
+  z-index: 1000;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+.navbar-collapse {
+	-webkit-flex-basis: 100%;
+	flex-basis: 100%;
+	background-color: #2BBBAD;
+}
+
+.main-nav-scrolled {
+  position: fixed;
+ width: 100%;
+  top: 0;
+}
+
+/*carosale section*/
+#carosel .carousel-inner .carousel-item::before{
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color:rgba(0,0,0,0.7);
+}
+
+#carosel .carousel-inner .carousel-item .carousel-caption{
+    bottom: 40%;
+    transform: translate(0,-0%);
+}
+#carosel .carousel-inner .carousel-item .carousel-caption h2{
+    font-size: 70px;
+}
+#carosel .carousel-inner .carousel-item .carousel-caption h4{
+    font-size: 60px;
+}
+#carosel .carousel-inner .carousel-item .carousel-caption p{
+    font-size: 25px;
+}
+
+/*socail icone*/
+#socal_icone{
+    position: fixed;
+    top: 35%;
+    left: -15px;
+    z-index:99999;
+    
+}
+
+#socal_icone:hover{
+    left: 0;
+}
+#socal_icone .circle{
+    padding: 4px 8px;
+    border: 1px solid inherit;
+    border-radius: 50%;
+    
+}
+/*parallax*/
+.parallax-window {
+    width: 100%;
+    min-height: 400px;
+    background: transparent;
+}
+#services{
+margin: 30px 0;
+}
+.service-sec{
+/*  background-color: rgba(0,0,0,0.5);*/
+}
+#services i{
+  font-size: 40px;
+  padding: 10px 0;
+  border:1px solid;
+}
+#counter{
+ 
+}
+#counter .card{
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 50%;
+}
+
+/*this footer social style sheet*/
+#footer .footer_top{
+    background-color: #2BBBAD;
+}
+#footer .footer_top .social_icone .circle{
+    margin: 3px;
+    padding: 6px 10px ;
+    border: 2px solid inherit;
+    border-radius: 100%;
+}
+
+
+/* about page in about section  */
+#about_sec .card .card-body .list-unstyled{
+    padding: 0;
+    margin: 0px
+}
+#about_sec .card .card-body .list-unstyled .circel{
+    margin: 4px;
+    text-align: center;
+    padding: 5px 8px 0px 8px ;
+    border: 1px solid inherit;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*this is portfolio stylesheet*/
+
+#design_portfolio .list-group-item.active {
+	z-index: 2;
+	color:#fff;
+	background-color: #FF4F5E;
+	border-color: #FF4F5E;
+}
+
+#design_portfolio .list-group-item {
+	position: relative;
+	display: block;
+	padding: .75rem 1.25rem;
+	margin-bottom: -1px;
+	/* background-color: #fff; */
+	border: 2px solid rgba(0,0,0,.125);
+}
+/*image pading*/
+#design_portfolio .col-md-3, .col-lg-3, .col-xl-3{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+   padding: 5px 5px 5px 5px;
+}
+
+
+#design_portfolio  .img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header {
+	max-width: 100%;
+	height: 180px;
+}
+
+/*service detals style sheet*/
+#card_se_d{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: transparent;
+    text-align: center;
+    height: 100%;
+    
+}
+
+/*this css style is service detals page*/
+#services_dettals .nav-tabs .nav-link{
+    background-color: #00E25B;
+    color: #fff;
+}
+
+#services_dettals .nav-tabs .nav-link.active{
+    background-color: #D9534F;
+    
+}
+
+
+#services_description .list-group-item.active {
+	background-color: #00E25B;
+	border-color: #00E25B;
+}
+
+#services_description .tab-content p{
+    color: #BDA396;
+}
+
+
+
+
+
